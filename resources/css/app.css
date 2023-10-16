@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    display: flex;
+}
+
+div.block1 {
+    padding: 20px;
+    flex: 1 0 0;
+    margin-right: 20px;
+}
+
+div.block2 {
+    padding: 20px;
+    flex: 4 0 0;
+}
+
+.block1 .child {
+    display: block;
+    color: rgb(18, 18, 18);
+    background-color: rgb(242, 243, 246);
+    margin: 10px auto;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.block1 .child:hover,
+.block1 .child.active {
+    background-color: rgb(223, 224, 232);
+}
+
+ul {
+    list-style-type: disc;
+    padding: 20px;
+}
+
+li {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.link {
+    color: blue;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.createtopic {
+    width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formparrent {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.inputchild {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.inputchild1 {
+    width: 100%;
+}
+
+.inputchild2 {
+    width: 100%;
+}
+
+.inputchild4 {
+    background-color: rgb(112, 114, 227);
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.category {
+    background-color: rgb(244, 84, 84);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.topic {
+    margin-top: 20px;
+    background-color: rgb(242, 243, 246);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.topicmain {
+    font-size: 22px;
+}
+
+.topic p {
+    font-size: 10px;
+}
+
+.thistopic {
+    width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.topictext {
+    background-color: rgb(242, 243, 246);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.topictext p {
+    font-weight: bold;
+    font-size: 18px;
+}
+.topictext span {
+    font-size: 12px;
+}
+
+.topictext a {
+    color: blue;
+}
+
+.topictext a:hover {
+    text-decoration: underline;
+}
+
+.topiccomments {
+    background-color: rgb(242, 243, 246);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.commentarea {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.commentbutton {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: rgb(112, 114, 227);
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.allcomments {
+    margin-top: 30px;
+}
+
+.comment {
+    margin-top: 10px;
+    background-color: rgb(179, 179, 179);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.comment .child2 {
+    font-size: 12px;
+}
+
+.mytopic {
+    width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.prfileview {
+    width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgb(149, 150, 226);
+    border-radius: 5px;
+}
+
+.mytopic a {
+    color: blue;
+}
+
+.mytopic span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mytopic .child2 {
+    font-size: 12px;
+}
+
+.edit {
+    width: 800px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.edit .now {
+    font-size: 20px;
+    font-weight: bold;
+}
